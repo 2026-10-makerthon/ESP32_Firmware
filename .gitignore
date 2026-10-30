@@ -1,0 +1,36 @@
+.venv/
+.tools/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+firmware/build/
+firmware/sdkconfig
+dist/
+# Generated reports, firmware packages, and recordings stay local.
+harness/reports/
+ready-to-flash/
+evidence/
+examples/
+*.bin
+*.elf
+*.map
+*.wav
+*.pcm
+*.log
+
+# Metadata for the original transfer ZIP, not source files.
+BUNDLE_INFO.json
+MANIFEST.sha256.json
+CODEX_START_PROMPT.ko.txt
+scripts/package-codex-handoff.py
+scripts/verify-handoff.py
+
+# Local editor settings and credentials.
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,20 @@
+{
+  "board_candidate": "xiao_esp32s3",
+  "microphone_candidate": "inmp441",
+  "i2s": {"bclk_gpio": 2, "ws_gpio": 1, "din_gpio": 4, "selected_slot": "left"},
+  "button": {"gpio": 7, "active_low": true},
+  "haptic": {
+    "backend": "drv2605l", "enabled": true, "prototype": true,
+    "sda_gpio": 5, "scl_gpio": 6,
+    "supply_voltage_v": 3.3,
+    "motor_model": "DM161", "motor_type": "ERM", "drive_mode": "erm_open_loop",
+    "motor_rated_voltage_v": null,
+    "motor_reported_voltages_v": [3.0, 3.7],
+    "motor_reported_current_ma": 80,
+    "peak_current_ma": null,
+    "design_output_target_v": 3.0,
+    "configuration_record": "2026-10-31: user authorized initial 3V physical output. Treat user-described DC motor as ERM for this bench profile. TI SLOS854D Eq.6; downward-rounded open-loop target, signed RTP, supply compensation on, startup boost off. 80mA is user reported, not established as startup/stall maximum. No actuator calibration or physical voltage/current/stop measurements have been performed.",
+    "verification_record": null,
+    "driver_datasheet": "https://www.ti.com/lit/ds/symlink/drv2605l.pdf"
+  }
+}

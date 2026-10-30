@@ -1,0 +1,27 @@
+{
+  "board_candidate": "xiao_esp32s3",
+  "microphone_candidate": "inmp441",
+  "i2s": {"bclk_gpio": 2, "ws_gpio": 1, "din_gpio": 4, "selected_slot": "left"},
+  "button": {"gpio": 7, "active_low": true},
+  "haptic": {
+    "backend": "drv2605l", "enabled": false,
+    "sda_gpio": 5, "scl_gpio": 6,
+    "supply_voltage_v": 3.3, "peak_current_ma": null,
+    "motor_model": "DM161",
+    "motor_type": null, "motor_rated_voltage_v": null,
+    "motor_reported_voltages_v": [3.0, 3.7],
+    "design_output_target_v": 3.0,
+    "design_output_target_status": "provisional design target, not an applied or measured output limit",
+    "motor_reported_current_ma": 80,
+    "motor_reported_current_kind": "unspecified; not established as startup or stall maximum",
+    "motor_spec_source": {
+      "kind": "user_report",
+      "date": "2026-10-30",
+      "evidence": "User specified DM161, DC 3.7V 80mA, then clarified that 3V is also written. Preserve both voltage reports without treating them as a confirmed operating range or choosing a confirmed rated voltage. ERM/LRA type, startup/stall current and actuator calibration remain unconfirmed."
+    },
+    "max_rtp": null,
+    "registers": {"16": null, "17": null, "18": null, "19": null,
+                  "1a": null, "1b": null, "1c": null, "1d": null},
+    "verification_record": null
+  }
+}

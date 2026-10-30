@@ -1,0 +1,11 @@
+{
+  "board_candidate": "xiao_esp32s3",
+  "microphone_candidate": "inmp441",
+  "i2s": {"bclk_gpio": 7, "ws_gpio": 8, "din_gpio": 9, "selected_slot": "left"},
+  "haptic": {
+    "backend": "mock", "enabled": false, "control_gpio": 1,
+    "supply_voltage_v": null, "peak_current_ma": null,
+    "input_3v3_verified": false, "pwm_frequency_hz": null,
+    "weak_duty": null, "strong_duty": null
+  }
+}

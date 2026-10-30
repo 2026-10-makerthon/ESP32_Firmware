@@ -1,0 +1,20 @@
+/* Generated from the selected hardware profile. */
+#define SH_HW_VERIFIED 0
+#define SH_HW_OUTPUT_ENABLED 0
+#define SH_HW_PROTOTYPE 0
+#define SH_HAPTIC_GPIO 1
+#define SH_HAPTIC_HZ 0
+#define SH_HAPTIC_WEAK_DUTY 0
+#define SH_HAPTIC_STRONG_DUTY 0
+#define SH_HAPTIC_BACKEND_DRV2605 1
+#define SH_DRV_SDA 5
+#define SH_DRV_SCL 6
+#define SH_DRV_MAX_RTP 0
+#define SH_DRV_REG_16 0
+#define SH_DRV_REG_17 0
+#define SH_DRV_REG_18 0
+#define SH_DRV_REG_19 0
+#define SH_DRV_REG_1A 0
+#define SH_DRV_REG_1B 0
+#define SH_DRV_REG_1C 0
+#define SH_DRV_REG_1D 0

@@ -1,0 +1,46 @@
+{
+  "protocol": "1.0",
+  "recorded_date": "2026-10-29",
+  "python": "3.12.14",
+  "python_executable": "C:\\Users\\junni\\Documents\\ChatGPT\\소리 전달 프로젝트\\.venv\\Scripts\\python.exe",
+  "os": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "Pygments": "2.21.0",
+    "bleak": "3.0.1",
+    "colorama": "0.4.6",
+    "iniconfig": "2.3.1",
+    "packaging": "26.3",
+    "pip": "25.0.1",
+    "pluggy": "1.7.0",
+    "pytest": "8.4.2",
+    "typing_extensions": "4.16.0",
+    "winrt-Windows.Devices.Bluetooth": "4!10.0.28000.2705",
+    "winrt-Windows.Devices.Bluetooth.Advertisement": "4!10.0.28000.2705",
+    "winrt-Windows.Devices.Bluetooth.GenericAttributeProfile": "4!10.0.28000.2705",
+    "winrt-Windows.Devices.Enumeration": "4!10.0.28000.2705",
+    "winrt-Windows.Devices.Radios": "4!10.0.28000.2705",
+    "winrt-Windows.Foundation": "4!10.0.28000.2705",
+    "winrt-Windows.Foundation.Collections": "4!10.0.28000.2705",
+    "winrt-Windows.Storage.Streams": "4!10.0.28000.2705",
+    "winrt-runtime": "4.0.3",
+    "ziglang": "0.14.1"
+  },
+  "native_compiler": "Zig 0.14.1 / bundled Clang",
+  "esp_idf": {
+    "requested_tag": "v5.5.1",
+    "commit": "fcae32885b0296b32044cb99ecbdc50d98dddb83",
+    "description": "v5.5.1",
+    "status": "",
+    "python_environment": "S:\\.tools\\idf-tools\\python_env\\idf5.5_py3.12_env\\Scripts\\python.exe",
+    "python_dependencies": "requirements.idf.lock.txt"
+  },
+  "local_paths": {
+    "source": "C:\\Users\\junni\\Documents\\ChatGPT\\소리 전달 프로젝트",
+    "idf_path": "S:\\.tools\\esp-idf",
+    "tools_path": "S:\\.tools\\idf-tools",
+    "subst_target": "C:\\Users\\junni\\.codex\\visualizations\\2026\\10\\28\\01a18382-743a-7800-876e-8c9aa18fb015",
+    "build_root": "C:\\Users\\junni\\shdev\\firmware-work"
+  },
+  "hardware_verified": false,
+  "android_verified": false
+}

@@ -1,0 +1,28 @@
+menu "Sound/haptic hardware adapters"
+config SH_SYNTHETIC_AUDIO
+    bool "Use synthetic 440 Hz bursts instead of a microphone"
+    default y
+config SH_SIMULATED_HAPTIC
+    bool "Accept haptic commands using a log-only driver (no GPIO output)"
+    default y
+config SH_I2S_BCLK
+    int "Microphone BCLK GPIO (candidate wiring; verify before use)"
+    default 2
+config SH_I2S_WS
+    int "Microphone WS GPIO"
+    default 1
+config SH_I2S_DIN
+    int "Microphone SD GPIO"
+    default 4
+config SH_POWER_BUTTON
+    bool "Enable 3-second power / 6-second pairing button"
+    default y
+config SH_BUTTON_GPIO
+    int "Active-low power button GPIO (XIAO D8)"
+    default 7
+    range 0 21
+config SH_PAIRING_SECONDS
+    int "New-device pairing window (seconds)"
+    default 120
+    range 10 600
+endmenu
